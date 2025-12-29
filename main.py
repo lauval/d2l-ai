@@ -1,6 +1,4 @@
-def main():
-    print("Hello from d2l-ai!")
-
-
-if __name__ == "__main__":
-    main()
+import torch
+print(torch.__version__)
+print(torch.cuda.current_device())
+print(torch.cuda.get_device_name(0))
